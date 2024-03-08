@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Cover() {
   const [coverNum, setCoverNum] = useState(1);
@@ -36,7 +36,7 @@ function Cover() {
           </h1>
         </div>
       ) : (
-        <h1 className="absolute text-white  font-cursive2 text-8xl z-10">More Than Just A Meal,It's An Experience</h1>
+        <h1 className="absolute text-white  font-cursive2 text-7xl z-10">More Than Just A Meal,It's An Experience</h1>
       )}
     </div>
   );

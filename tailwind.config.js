@@ -4,11 +4,13 @@ export default {
   theme: {
     extend: {  fontFamily: {
       'cursive': [ "Pacifico" ],
-      'cursive2':["Great Vibes"]
+      'cursive2': [ "Great Vibes" ],
+      'playfair':["Playfair Display"]
+      },
+      colors: {
+        'yellow-100':"#c99A11"
+      }
     },
-    textColor: {
-      'yellow-100':'#C99A11'
-    }},
   
   },
   plugins: [],
