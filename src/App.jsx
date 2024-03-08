@@ -10,23 +10,23 @@ function App() {
 }
 function Menu() {
   return (
-    <div className="bg-gray-900 w-full h-screen flex justify-center items-center flex-col mt-1">
+    <div className="bg-gray-900 w-full h-screen flex justify-center items-center flex-col mt-1 ">
       <h1 className="flex text-yellow-100 justify-center relative p-10 text-5xl underline font-cursive2">
         Our Special
       </h1>
       <div className="bg-white w-3/4 h-3/4 flex flex-row flex-wrap ">
-        <Dish />
-        <Dish />
-        <Dish />
-        <Dish />
+      {[1,2,3,4].map((_, index) => (
+          <Dish key={index} index={index} />
+        ))}
       </div>
     </div>
   );
 }
-function Dish() {
+function Dish({ index }) {
+  const isFirstTwo = index < 2;
   return (
     //parent
-    <div className="group w-1/2 h-1/2  flex  hover:text-white hover:bg-yellow-100 overflow-hidden">
+    <div className={ `group w-1/2 h-1/2  flex  hover:text-white hover:bg-yellow-100 overflow-hidden ${!isFirstTwo?"flex-row-reverse":""} ` }>
       <div className="h-full w-1/2  transition-all ease-in-out overflow-hidden ">
       <img
         src="./../public/Images/special1.jpg"
