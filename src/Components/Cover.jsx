@@ -16,8 +16,8 @@ function Cover() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center bg-zinc-800 w-full h-screen">
-      <div className="relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-">
+    <div className="flex justify-center items-center bg-creme-100 w-full h-screen">
+      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-">
         <img
           src={`./../public/Images/cover${coverNum}.jpg`}
           className="transition-opacity duration-1000 ease-in-out w-full h-screen"

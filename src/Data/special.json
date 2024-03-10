@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Rajma Chawal Combo",
+      "description": "A classic North Indian dish of red kidney beans in a spiced tomato gravy, served with basmati rice.",
+      "price": 80,
+      "image": "Special1.jpg"
+    },
+    {
+      "title": "Handi Paneer+Rumali Roti",
+      "description": "Creamy paneer cooked in a handi-style gravy, served with soft rumali roti.",
+      "price": 180,
+      "image": "Special2.jpg"
+    },
+    {
+      "title": "Dal Makhani+Rumali Roti ",
+      "description": "Creamy black lentils cooked with spices, served with soft rumali roti.",
+      "price": 160,
+      "image": "Special3.jpg"
+    },
+    {
+      "title": "Malai Kofta + Rumali Roti",
+      "description": "Delicious kofta balls in a rich, creamy gravy, served with soft rumali roti.",
+      "price": 180,
+      "image": "Special4.jpg"
+    }
+  ]
+  

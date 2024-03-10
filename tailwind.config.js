@@ -8,7 +8,8 @@ export default {
       'playfair':["Playfair Display"]
       },
       colors: {
-        'yellow-100':"#c99A11"
+        'yellow-100': "#ECB159",
+        'creme-100':"#FEFBF6"
       }
     },
   
