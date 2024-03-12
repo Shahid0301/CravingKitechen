@@ -3,7 +3,7 @@ function Special({ index, data }) {
   return (
     //parent
     <div
-      className={`group w-1/2 h-1/2  flex  hover:text-white hover:bg-yellow-100 overflow-hidden ${
+      className={`group w-1/2 h-1/2  flex hover:text-white hover:bg-yellow-100 overflow-hidden ${
         !isFirstTwo ? "flex-row-reverse" : ""
       } `}
     >
@@ -14,7 +14,7 @@ function Special({ index, data }) {
           alt="Special dish"
         />
       </div>
-      <div className="flex items-center justify-center flex-col w-1/2 space-y-5 hover:text-white ">
+      <div className="flex items-center justify-center flex-col w-1/2 space-y-5 hover:text-white p-3">
         <h1 className="font-playfair text-2xl font-bold text-gray-700 hover:text-white">
           {data.title}
         </h1>

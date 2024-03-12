@@ -9,7 +9,7 @@ export default {
       },
       colors: {
         'yellow-100': "#ECB159",
-        'creme-100':"#FEFBF6"
+        'creme-100':"#F2EFE5"
       }
     },
   
