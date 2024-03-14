@@ -14,7 +14,7 @@ function App() {
       </div>
       <Menu setMenuCategory={setMenuCategory} menuCategory={menuCategory} />
       <MenuList menuCategory={ menuCategory } />
-      <Menu setMenuCategory={setMenuCategory} menuCategory={menuCategory} />
+      
       
       
     </>

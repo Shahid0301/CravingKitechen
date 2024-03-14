@@ -19,7 +19,7 @@ function Cover() {
     <div className="flex justify-center items-center bg-creme-100 w-full h-screen">
       <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-">
         <img
-          src={`Images/cover${coverNum}.jpg`}
+          src={`./Images/Cover${coverNum}.jpg`}
           className="transition-opacity duration-1000 ease-in-out w-full h-screen"
           alt="Cover"
         />
@@ -28,8 +28,8 @@ function Cover() {
       {coverNum === 1 ? (
         <div className="z-10 absolute w-full h-screen flex items-center justify-center flex-col transition-opacity">
           <img
-            src={`Images/logo${2}.png`}
-            className="z-10  w-2/6 drop-shadow-sm w-[10vw]"
+            src={`./Images/logo${2}.png`}
+            className="z-10   drop-shadow-sm w-[10vw]"
           ></img>
           <h1 className="font-cursive2  text-9xl text-yellow-100 bottom-10 z-10">
             Cravings Kitchen

@@ -9,7 +9,7 @@ function Special({ index, data }) {
     >
       <div className="h-full w-1/2  transition-all ease-in-out overflow-hidden ">
         <img
-          src={`Images/special${index + 1}.jpg`}
+          src={`/Images/Special${index + 1}.jpg`}
           className="w-full h-full object-cover group-hover:scale-110 transition-all ease duration-1000"
           alt="Special dish"
         />
