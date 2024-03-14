@@ -28,7 +28,7 @@ function Cover() {
       {coverNum === 1 ? (
         <div className="z-10 absolute w-full h-screen flex items-center justify-center flex-col transition-opacity">
           <img
-            src={`./../../public/Images/logo${2}.png`}
+            src={`Images/logo${2}.png`}
             className="z-10  w-2/6 drop-shadow-sm w-[10vw]"
           ></img>
           <h1 className="font-cursive2  text-9xl text-yellow-100 bottom-10 z-10">
