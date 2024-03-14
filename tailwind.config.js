@@ -2,17 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {  fontFamily: {
-      'cursive': [ "Pacifico" ],
-      'cursive2': [ "Great Vibes" ],
-      'playfair':["Playfair Display"]
+    extend: {
+      fontFamily: {
+        cursive: ["Pacifico"],
+        cursive2: ["Great Vibes"],
+        playfair: ["Playfair Display"],
       },
       colors: {
-        'yellow-100': "#ECB159",
-        'creme-100':"#F2EFE5"
-      }
+        "yellow-100": "#ECB159",
+        "creme-100": "#FFF6E9",
+      },
     },
-  
   },
   plugins: [],
 };

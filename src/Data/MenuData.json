@@ -1,0 +1,209 @@
+
+{
+  "categories": [
+    {
+      "name": "Drink",
+      "items": [
+        {
+          "name": "Virgin Mojito",
+          "image": "virginmojito.jpg",
+          "price": 70
+        },
+        {
+          "name": "Blue Lagoon",
+          "image": "bluelagoon.jpg",
+          "price": 70
+        },
+        {
+          "name": "Paan Mojito",
+          "image": "paanmojito.jpg",
+          "price": 70
+        },
+        {
+          "name": "Kala Khatta",
+          "image": "kalakhatta.jpg",
+          "price": 70
+        },
+        {
+          "name": "Lemon Soda (Sweet/Salted/Mix)",
+          "image": "lemonsoda.jpg",
+          "price": 60
+        },
+        {
+          "name": "Cold Coffee",
+          "image": "coldcoffee.jpg",
+          "price": 90
+        },
+        {
+          "name": "Cold Coffee with ice-cream",
+          "image": "coldcoffeewithicecream.jpg",
+          "price": 110
+        },
+        {
+          "name": "Mango Shake",
+          "image": "mangoshake.jpg",
+          "price": 90
+        },
+        {
+          "name": "Vanilla Shake",
+          "image": "vanillashake.jpg",
+          "price": 90
+        },
+        {
+          "name": "Strawberry Shake",
+          "image": "strawberryshake.jpg",
+          "price": 90
+        },
+        {
+          "name": "Kit-kat Shake",
+          "image": "kitkatshake.jpg",
+          "price": 110
+        },
+        {
+          "name": "Oreo Shake",
+          "image": "oreoshake.jpg",
+          "price": 110
+        },
+        {
+          "name": "Paan Shake",
+          "image": "paanshake.jpg",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "name": "Pizza",
+      "items": [
+        {
+          "name": "Cheese Pizza (Margherita)",
+          "image": "cheesepizza.jpg",
+          "price": 90
+        },
+        {
+          "name": "Cheese Onion Tomato",
+          "image": "cheeseoniontomato.jpg",
+          "price": 100
+        },
+        {
+          "name": "Cheese Onion Tomato Capsicum (Triple Veg)",
+          "image": "farmhousepizza.jpg",
+          "price": 110
+        },
+        {
+          "name": "Chilli Paneer Pizza",
+          "image": "chillipaneer.jpg",
+          "price": 130
+        },
+        {
+          "name": "Farhouse Pizza",
+          "image": "farmhousepizza.jpg",
+          "price": 140
+        },
+        {
+          "name": "Cheese Loaded Nachos",
+          "image": "cheeseloadednachos.jpg",
+          "price": 120
+        }
+      ]
+    },
+    
+    {
+      "name": "Burger",
+      "items": [
+        {
+          "name": "Aloo Tikki Burger",
+          "image": "alootikkiburger.jpg",
+          "price": 70
+        },
+        {
+          "name": "Noodles/Rice Cheese Burger",
+          "image": "noodlecheeseburger.jpg",
+          "price": 90
+        },
+        {
+          "name": "Paneer Cheese Burger",
+          "image": "paneercheeseburger.jpg",
+          "price": 100
+        },
+        {
+          "name": "Tandoori Burger",
+          "image": "tandooriburger.jpg",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "items": [
+        {
+          "name": "Veg. Chowmein",
+          "price": 100,
+          "image":"chowmein.jpg"
+        },
+        {
+          "name": "Singapuri Chowmein",
+          "price": 110,
+          "image":"chowmein.jpg"
+        },
+        {
+          "name": "Hakka Noodles (Non Spicy)",
+          "price": 130,
+          "image":"chowmein.jpg"
+        },
+        {
+          "name": "Schezwan Noodles",
+          "price": 110,
+          "image":"chowmein.jpg"
+        },
+        {
+          "name": "Paneer Chowmein",
+          "price": 130,
+          "image":"chowmein.jpg"
+        },
+        {
+          "name": "Fried Rice",
+          "price": 100,
+          "image":"friedrice.jpg"
+        },
+        {
+          "name": "French Chilli Rice",
+          "price": 120,
+          "image":"friedrice.jpg"
+        },
+        {
+          "name": "Manchurian (Dry/Gravy)",
+          "price": 140,
+          "image": "manchurian.jpg"
+        },
+        {
+          "name": "Chilli Paneer (Dry/Gravy)",
+          "price": 170,
+          "image": "chillipaneer.jpg"
+        },
+        {
+          "name": "Hot Garlic Mushroom",
+          "price": 190,
+          "image": "hotgarlicmushroom.jpg"
+        },
+        {
+          "name": "Veg. Momos (Steamed)",
+          "price": 80,
+          "image": "vegmomossteamed.jpg"
+        },
+        {
+          "name": "Veg. Momos (Fried)",
+          "price": 95,
+          "image": "vegmomosfried.jpg"
+        },
+        {
+          "name": "Paneer Momos (Steamed)",
+          "price": 100,
+          "image": "paneermomossteamed.jpg"
+        }
+        
+        
+      ]
+    }
+    
+  ]
+}

@@ -9,7 +9,7 @@ function Cover() {
 
   useEffect(() => {
     // Set interval to switch image every 5 seconds
-    const interval = setInterval(switchImage, 5000);
+    const interval = setInterval(switchImage, 3000);
 
     // Clear interval on component unmount
     return () => clearInterval(interval);
@@ -29,7 +29,7 @@ function Cover() {
         <div className="z-10 absolute w-full h-screen flex items-center justify-center flex-col transition-opacity">
           <img
             src={`./../../public/Images/logo${2}.png`}
-            className="z-10  w-2/6 drop-shadow-sm"
+            className="z-10  w-2/6 drop-shadow-sm w-[10vw]"
           ></img>
           <h1 className="font-cursive2  text-9xl text-yellow-100 bottom-10 z-10">
             Cravings Kitchen
