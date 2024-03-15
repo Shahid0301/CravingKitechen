@@ -18,7 +18,7 @@ function MenuList({ menuCategory }) {
 
 function MenuItem({ item }) {
   return (
-    <li className=" group list-none flex items-center justify-evenly  w-[25vw] flex-grow   h-40 bg-creme-100  border-l-2 hover:bg-yellow-100 transition-colors duration-300 ease">
+    <li className=" group list-none flex items-center justify-evenly  w-[25vw] flex-grow   h-40 bg-creme-100   hover:bg-yellow-100 transition-colors duration-300 ease border-b-4 border-dashed">
       <img
         src={`./Images/Drinks/${item.image}`}
         className="w-32 h-32 rounded-full object-cover mx-1"
