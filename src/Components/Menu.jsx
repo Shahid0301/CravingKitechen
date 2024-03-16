@@ -23,7 +23,7 @@ function Menu({ setMenuCategory, menuCategory }) {
       transition={ { duration: 1 } }
       
     >
-      <h1 className="font-cursive2 p-3 text-7xl mt-2">Our Menu</h1>
+      <h1 className="font-cursive2 p-3 text-7xl mt-14">Our Menu</h1>
       <div className="w-3/4 flex place-content-around gap-1 mt-6 mb-6">
         {menuData.map((data) => (
           <MenuCard

@@ -19,5 +19,12 @@
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+
   }
-  
+  *{
+    scroll-behavior: smooth;
+    
+  }
+  div{
+    scroll-snap-align: center;
+  }
