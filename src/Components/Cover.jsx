@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 function Cover() {
   const [coverNum, setCoverNum] = useState(1);
@@ -9,7 +10,7 @@ function Cover() {
 
   useEffect(() => {
     // Set interval to switch image every 5 seconds
-    const interval = setInterval(switchImage, 3000);
+    const interval = setInterval(switchImage, 5000);
 
     // Clear interval on component unmount
     return () => clearInterval(interval);
@@ -24,21 +25,50 @@ function Cover() {
           alt="Cover"
         />
       </div>
-      <div className="w-full h-screen absolute bg-black/[0.5] z-10 bottom-"></div>
+      <div className="w-full h-screen absolute bg-black/[0.6] z-10 bottom-"></div>
       {coverNum === 1 ? (
         <div className="z-10 absolute w-full h-screen flex items-center justify-center flex-col transition-opacity">
-          <img
-            src={`./Images/logo${2}.png`}
-            className="z-10   drop-shadow-sm w-[10vw]"
-          ></img>
-          <h1 className="font-cursive2  text-9xl text-yellow-100 bottom-10 z-10">
+          <motion.h2 className="font-cursive2 text-7xl text-white">
+            Welcome TO
+          </motion.h2>
+          <motion.h1
+            className="font-cursive2 text-9xl text-white z-10"
+            initial={{ opacity: 0, translateX: -150 }}
+            animate={{ opacity: 1, translateX: 0 }}
+            transition={{ duration: 2 }}
+          >
             Cravings Kitchen
-          </h1>
+          </motion.h1>
         </div>
       ) : (
-        <h1 className="absolute text-white  font-cursive2 text-7xl z-10">More Than Just A Meal,It's An Experience</h1>
+        <motion.h1
+          className="absolute text-white font-cursive2 text-8xl text-center text-wrap z-10"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 3 }}
+        >
+          More Than Just A Meal,It's An Experience
+        </motion.h1>
       )}
+      <Button key={coverNum} position={"absolute"}>
+        LOOK MENU
+      </Button>
     </div>
+  );
+}
+
+function Button({ position, children }) {
+  // Change Children to children
+  return (
+    <motion.a
+      href="#menu"
+      className={`${position} bg-white px-10 py-2 z-10 text-center bottom-36 text-black rounded-lg hover:bg-transparent hover:text-white border-2 border-white transition-color duration-100`}
+      initial={{ opacity: 0, translateY: 150 }}
+      animate={{ opacity: 1, translateY: 0 }}
+      transition={{ duration: 2, delay: 1 }}
+    >
+      {children}
+    </motion.a>
   );
 }
 

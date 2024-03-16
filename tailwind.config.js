@@ -6,11 +6,12 @@ export default {
       fontFamily: {
         cursive: ["Pacifico"],
         cursive2: ["Great Vibes"],
-        playfair: ["Playfair Display"],
+        playfair: [ "Playfair Display" ],
+        oswald:["Oswald"],
       },
       colors: {
         "yellow-100": "#ECB159",
-        "creme-100": "#FFF6E9",
+        "creme-100": "#F7EEDD",
       },
     },
   },

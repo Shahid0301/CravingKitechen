@@ -1,4 +1,3 @@
-
 {
   "categories": [
     {
@@ -7,67 +6,80 @@
         {
           "name": "Virgin Mojito",
           "image": "virginmojito.jpg",
-          "price": 70
+          "price": 70,
+          "ingredient": "mint/lime/soda water"
         },
         {
           "name": "Blue Lagoon",
           "image": "bluelagoon.jpg",
-          "price": 70
+          "price": 70,
+          "ingredient": "blue curaçao/lemonade/soda water"
         },
         {
           "name": "Paan Mojito",
           "image": "paanmojito.jpg",
-          "price": 70
+          "price": 70,
+          "ingredient": "betel leaves/lime/soda water"
         },
         {
           "name": "Kala Khatta",
           "image": "kalakhatta.jpg",
-          "price": 70
+          "price": 70,
+          "ingredient": "black salt/tamarind/soda water"
         },
         {
           "name": "Lemon Soda (Sweet/Salted/Mix)",
           "image": "lemonsoda.jpg",
-          "price": 60
+          "price": 60,
+          "ingredient": "lemon/salt/soda water"
         },
         {
           "name": "Cold Coffee",
           "image": "coldcoffee.jpg",
-          "price": 90
+          "price": 90,
+          "ingredient": "coffee/milk/sugar"
         },
         {
           "name": "Cold Coffee with ice-cream",
           "image": "coldcoffeewithicecream.jpg",
-          "price": 110
+          "price": 110,
+          "ingredient": "coffee/milk/ice cream"
         },
         {
           "name": "Mango Shake",
           "image": "mangoshake.jpg",
-          "price": 90
+          "price": 90,
+          "ingredient": "mango/milk/sugar"
         },
         {
           "name": "Vanilla Shake",
           "image": "vanillashake.jpg",
-          "price": 90
+          "price": 90,
+          "ingredient": "vanilla/milk/sugar"
         },
         {
           "name": "Strawberry Shake",
           "image": "strawberryshake.jpg",
-          "price": 90
+          "price": 90,
+          "ingredient": "strawberry/milk/sugar"
         },
         {
           "name": "Kit-kat Shake",
           "image": "kitkatshake.jpg",
-          "price": 110
+          "price": 110,
+          "ingredient": "kit-kat/milk/sugar"
         },
         {
           "name": "Oreo Shake",
           "image": "oreoshake.jpg",
-          "price": 110
+          "price": 110,
+          "ingredient": "oreo/milk/sugar"
         },
         {
           "name": "Paan Shake",
           "image": "paanshake.jpg",
-          "price": 100
+          "price": 100,
+          "ingredient": "betel leaves/milk/sugar"
         }
       ]
     },
@@ -75,60 +87,70 @@
       "name": "Pizza",
       "items": [
         {
-          "name": "Cheese Pizza (Margherita)",
+          "name": "Cheese Pizza ",
           "image": "cheesepizza.jpg",
-          "price": 90
+          "price": 90,
+          "ingredient": "Margarita cheese/tomato"
         },
         {
           "name": "Cheese Onion Tomato",
           "image": "cheeseoniontomato.jpg",
-          "price": 100
+          "price": 100,
+          "ingredient": "cheese/onion/tomato"
         },
         {
-          "name": "Cheese Onion Tomato Capsicum (Triple Veg)",
+          "name": "Cheese (Triple Veg)",
           "image": "farmhousepizza.jpg",
-          "price": 110
+          "price": 110,
+          "ingredient": "cheese/onion/capsicum"
         },
         {
           "name": "Chilli Paneer Pizza",
           "image": "chillipaneer.jpg",
-          "price": 130
+          "price": 130,
+          "ingredient": "paneer/chilli/cheese"
         },
         {
           "name": "Farhouse Pizza",
           "image": "farmhousepizza.jpg",
-          "price": 140
+          "price": 140,
+          "ingredient": "cheese/onion/capsicum/tomato"
         },
         {
           "name": "Cheese Loaded Nachos",
           "image": "cheeseloadednachos.jpg",
-          "price": 120
+          "price": 120,
+          "ingredient": "cheese/nachos/jalapenos"
         }
       ]
     },
-    
+
     {
       "name": "Burger",
       "items": [
         {
           "name": "Aloo Tikki Burger",
           "image": "alootikkiburger.jpg",
-          "price": 70
+          "price": 70,
+          "ingredient": "aloo tikki/bun/chutney"
         },
         {
           "name": "Noodles/Rice Cheese Burger",
           "image": "noodlecheeseburger.jpg",
-          "price": 90
+          "price": 90,
+          "ingredient": "noodles/cheese/bun"
         },
         {
           "name": "Paneer Cheese Burger",
           "image": "paneercheeseburger.jpg",
-          "price": 100
+          "price": 100,
+          "ingredient": "paneer/cheese/bun"
         },
         {
           "name": "Tandoori Burger",
           "image": "tandooriburger.jpg",
-          "price": 100
+          "price": 100,
+          "ingredient": "tandoori bun/chutney"
         }
       ]
     },
@@ -138,72 +160,82 @@
         {
           "name": "Veg. Chowmein",
           "price": 100,
-          "image":"chowmein.jpg"
+          "image": "chowmein.jpg",
+          "ingredient": "vegetables/noodles/soy sauce"
         },
         {
           "name": "Singapuri Chowmein",
           "price": 110,
-          "image":"chowmein.jpg"
+          "image": "chowmein.jpg",
+          "ingredient": "vegetables/noodles/soy sauce"
         },
         {
           "name": "Hakka Noodles (Non Spicy)",
           "price": 130,
-          "image":"chowmein.jpg"
+          "image": "chowmein.jpg",
+          "ingredient": "vegetables/noodles/soy sauce"
         },
         {
           "name": "Schezwan Noodles",
           "price": 110,
-          "image":"chowmein.jpg"
+          "image": "chowmein.jpg",
+          "ingredient": "vegetables/noodles/soy sauce"
         },
         {
           "name": "Paneer Chowmein",
           "price": 130,
-          "image":"chowmein.jpg"
+          "image": "chowmein.jpg",
+          "ingredient": "paneer/vegetables/noodles/soy sauce"
         },
         {
           "name": "Fried Rice",
           "price": 100,
-          "image":"friedrice.jpg"
+          "image": "friedrice.jpg",
+          "ingredient": "rice/vegetables/soy sauce"
         },
         {
           "name": "French Chilli Rice",
           "price": 120,
-          "image":"friedrice.jpg"
+          "image": "friedrice.jpg",
+          "ingredient": "rice/chilli/vegetables"
         },
         {
           "name": "Manchurian (Dry/Gravy)",
           "price": 140,
-          "image": "manchurian.jpg"
+          "image": "manchurian.jpg",
+          "ingredient": "vegetables/soy sauce/corn flour"
         },
         {
           "name": "Chilli Paneer (Dry/Gravy)",
           "price": 170,
-          "image": "chillipaneer.jpg"
+          "image": "chillipaneer.jpg",
+          "ingredient": "paneer/chilli/soy sauce/corn flour"
         },
         {
           "name": "Hot Garlic Mushroom",
           "price": 190,
-          "image": "hotgarlicmushroom.jpg"
+          "image": "hotgarlicmushroom.jpg",
+          "ingredient": "mushroom/garlic/chilli"
         },
         {
           "name": "Veg. Momos (Steamed)",
           "price": 80,
-          "image": "vegmomossteamed.jpg"
+          "image": "vegmomossteamed.jpg",
+          "ingredient": "vegetables/dough/soy sauce"
         },
         {
           "name": "Veg. Momos (Fried)",
           "price": 95,
-          "image": "vegmomosfried.jpg"
+          "image": "vegmomosfried.jpg",
+          "ingredient": "vegetables/dough/soy sauce"
         },
         {
           "name": "Paneer Momos (Steamed)",
           "price": 100,
-          "image": "paneermomossteamed.jpg"
+          "image": "paneermomossteamed.jpg",
+          "ingredient": "paneer/dough/soy sauce"
         }
-        
-        
       ]
     }
-    
   ]
 }
