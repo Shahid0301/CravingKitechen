@@ -18,7 +18,7 @@ function App() {
 }
 function Welcome() {
   return (
-    <div className="w-full h-[80vh] flex justify-center font-oswald items-center pr-10 bg-creme-100">
+    <div className="w-full h-[80vh] flex justify-center font-oswald items-center pr-10 ">
       <div className=" w-2/3 flex justify-center items-center flex-col p-20">
         <h1 className="text-8xl  text-yellow-100">
           WELCOME
