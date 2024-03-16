@@ -17,7 +17,7 @@ function Cover() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center bg-creme-100 w-full h-screen">
+    <div id="Home" className="flex justify-center items-center bg-creme-100 w-full h-screen">
       <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-">
         <img
           src={`./Images/Cover${coverNum}.jpg`}
@@ -25,7 +25,7 @@ function Cover() {
           alt="Cover"
         />
       </div>
-      <div className="w-full h-screen absolute bg-black/[0.6] z-10 bottom-"></div>
+      <div className="w-full h-screen absolute bg-black/[0.6] z-9 bottom-"></div>
       {coverNum === 1 ? (
         <div className="z-10 absolute w-full h-screen flex items-center justify-center flex-col transition-opacity">
           <motion.h2 className="font-cursive2 text-7xl text-white">
@@ -61,7 +61,7 @@ function Button({ position, children }) {
   // Change Children to children
   return (
     <motion.a
-      href="#menu"
+      href="#Menu"
       className={`${position} bg-white px-10 py-2 z-10 text-center bottom-36 text-black rounded-lg hover:bg-transparent hover:text-white border-2 border-white transition-color duration-100`}
       initial={{ opacity: 0, translateY: 150 }}
       animate={{ opacity: 1, translateY: 0 }}

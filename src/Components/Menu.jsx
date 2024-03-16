@@ -6,7 +6,6 @@ function Menu({ setMenuCategory, menuCategory }) {
   // const [ ref, inView ] = useInView();
   
   function handleClick(id) {
-    console.log(menuCategory);
     console.log(id);
     if (id === menuCategory) setMenuCategory(null);
     else setMenuCategory(id);
@@ -16,11 +15,13 @@ function Menu({ setMenuCategory, menuCategory }) {
   return (
     <motion.div
       
-      id="menu"
-      className="w-full flex justify-center items-center flex-col overflow-hidden"
+      id="Menu"
+      className="w-full flex justify-center items-center flex-col overflow-hidden "
       initial={ { opacity: 0, scale:0.9 } }
-      whileInView={ { opacity: 1, scale:1} }
+      whileInView={ { opacity: 1, scale: 1 } }
+      viewport={{ once: true }}
       transition={ { duration: 1 } }
+      
     >
       <h1 className="font-cursive2 p-3 text-7xl mt-2">Our Menu</h1>
       <div className="w-3/4 flex place-content-around gap-1 mt-6 mb-6">
