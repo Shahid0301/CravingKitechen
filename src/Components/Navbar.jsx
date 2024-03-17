@@ -9,7 +9,7 @@ function Navbar() {
           <ul className="flex">
             {nav.map((el,i) => (
               <a key={el} href={`#${el}`}>
-                <li className={ `px-8  border-b-white border-b-2 hover:border-yellow-100` }>{el}</li>
+                <li className={ `px-8  border-b-white border-b-2 hover:border-yellow-100 sm:px-3` }>{el}</li>
               </a>
             ))}
           </ul>

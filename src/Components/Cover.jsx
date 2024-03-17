@@ -17,22 +17,25 @@ function Cover() {
   }, []);
 
   return (
-    <div id="Home" className="flex justify-center items-center bg-creme-100 w-full h-screen">
-      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-">
+    <div
+      id="Home"
+      className="flex justify-center items-center bg-creme-100 w-full h-screen sm:h-[70%] sm:overflow-hidden "
+    >
+      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-opacity duration-3000 sm:w-full sm:h-[70%] ">
         <img
           src={`./Images/Cover${coverNum}.jpg`}
-          className="transition-opacity duration-1000 ease-in-out w-full h-screen"
+          className="transition-opacity duration-1000 ease-in-out w-full h-screen sm:h-[70%]"
           alt="Cover"
         />
       </div>
-      <div className="w-full h-screen absolute bg-black/[0.6] z-9 bottom-"></div>
+      <div className="w-full h-screen absolute bg-black/[0.6] z-9 sm:w-[] "></div>
       {coverNum === 1 ? (
         <div className="z-10 absolute w-full h-screen flex items-center justify-center flex-col transition-opacity">
-          <motion.h2 className="font-cursive2 text-7xl text-white">
+          <motion.h2 className="font-cursive2 text-7xl text-white sm:text-4xl">
             Welcome TO
           </motion.h2>
           <motion.h1
-            className="font-cursive2 text-9xl text-white z-10"
+            className="font-cursive2 text-9xl text-white z-10 sm:text-6xl"
             initial={{ opacity: 0, translateX: -150 }}
             animate={{ opacity: 1, translateX: 0 }}
             transition={{ duration: 2 }}
@@ -42,7 +45,7 @@ function Cover() {
         </div>
       ) : (
         <motion.h1
-          className="absolute text-white font-cursive2 text-8xl text-center text-wrap z-10"
+          className="absolute text-white font-cursive2 text-8xl text-center text-wrap z-10 sm:text-5xl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 3 }}
@@ -62,7 +65,7 @@ function Button({ position, children }) {
   return (
     <motion.a
       href="#Menu"
-      className={`${position} bg-white px-10 py-2 z-10 text-center bottom-36 text-black rounded-lg hover:bg-transparent hover:text-white border-2 border-white transition-color duration-100`}
+      className={`${position} bg-white px-10 py-2 z-10 text-center bottom-36 text-black rounded-lg hover:bg-transparent hover:text-white border-2 border-white transition-color duration-100 sm:bottom-20 sm:px-3 sm:py-1`}
       initial={{ opacity: 0, translateY: 150 }}
       animate={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 2, delay: 1 }}

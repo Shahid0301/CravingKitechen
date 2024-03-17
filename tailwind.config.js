@@ -13,7 +13,12 @@ export default {
         "yellow-100": "#ECB159",
         "creme-100": "#F7EEDD",
       },
+  
+       
     },
+    screens: {
+      'sm': {'max': '576px'},
+    }
   },
   plugins: [],
 };

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 function WelcomeSection() {
     return (
-      <div className="w-full h-[80vh] flex justify-center font-oswald items-center pr-10 ">
+      <div className="w-full h-[80vh] flex justify-center font-oswald items-center pr-10 overflow-hidden ">
             <motion.div className=" w-2/3 flex justify-center items-center flex-col p-20"
                 initial={ { opacity: 0 ,translateX:-150} }
                 whileInView={ { opacity: 1, translateX:0 } }
