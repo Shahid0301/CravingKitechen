@@ -24,7 +24,7 @@ function Menu({ setMenuCategory, menuCategory }) {
       
     >
       <h1 className="font-cursive2 p-3 text-7xl mt-14">Our Menu</h1>
-      <div className="w-3/4 flex place-content-around gap-1 mt-6 mb-6">
+      <div className="w-3/4 flex place-content-around gap-1 mt-6 mb-6 flex-wrap">
         {menuData.map((data) => (
           <MenuCard
             key={data.title}

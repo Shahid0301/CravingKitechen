@@ -17,6 +17,7 @@ export default {
        
     },
     screens: {
+      'xs':{'max':'431'},
       'sm': {'max': '576px'},
     }
   },

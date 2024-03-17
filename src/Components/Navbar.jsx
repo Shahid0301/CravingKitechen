@@ -9,13 +9,13 @@ function Navbar() {
           <ul className="flex">
             {nav.map((el,i) => (
               <a key={el} href={`#${el}`}>
-                <li className={ `px-8  border-b-white border-b-2 hover:border-yellow-100 sm:px-3` }>{el}</li>
+                <li className={ `px-8  border-b-white border-b-2 hover:border-yellow-100 sm:px-1` }>{el}</li>
               </a>
             ))}
           </ul>
         </div>
         <div>
-          <a href="#About" className="bg-yellow-100 py-4 px-9">About Us</a>
+          <a href="#About" className="bg-yellow-100 py-4 px-9 sm:px-2 sm:py-3">About Us</a>
         </div>
       </div>
     );
