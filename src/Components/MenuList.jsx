@@ -21,7 +21,7 @@ function MenuList({ menuCategory }) {
   }
 
   return (
-    <div className="flex items-center justify-center h-full flex-col">
+    <div id="menuList "className="flex items-center justify-center h-full flex-col">
       <div className="flex items-end mr-72 flex-col w-full text-center mb-10 sm:mr-28">
         { menuCategory && <input
           value={ search }

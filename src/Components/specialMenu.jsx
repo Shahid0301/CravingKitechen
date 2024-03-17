@@ -3,9 +3,9 @@ import specialData from "./../Data/special.json";
 
 function specialMenu() {
   return (
-    <div id="Special" className="bg-creme-100 w-full h-screen flex justify-center items-center flex-col sm:h-[250vh]">
+    <div id="Special" className="bg-creme-100 w-full h-screen flex justify-center items-center flex-col ">
     
-      <h1 className="flex justify-center relative p-2 text-7xl font-cursive2 mt-10">
+      <h1 className="flex justify-center relative p-2 text-7xl font-cursive2 mt-10 sm:mt-2">
         Our Special
       </h1>
       <div className="bg-white w-10/12 h-3/4 flex flex-row flex-wrap shadow-2xl">

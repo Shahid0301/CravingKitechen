@@ -9,7 +9,7 @@ import AboutUs from "./Components/AboutUs";
 
 // import './styles.css';
 function App() {
-  const [menuCategory, setMenuCategory] = useState("Drink");
+  const [menuCategory, setMenuCategory] = useState("Browse All");
   return (
     <>
       <Cover />

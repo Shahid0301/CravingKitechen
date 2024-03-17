@@ -19,16 +19,16 @@ function Cover() {
   return (
     <div
       id="Home"
-      className="flex justify-center overflow-hidden items-center bg-creme-100 w-full h-screen sm:h-[70%] sm:overflow-hidden "
+      className="flex justify-center relative overflow-hidden items-center bg-creme-100 w-full h-screen sm:h-[70%] "
     >
-      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-opacity duration-3000 sm:w-full sm:h-[70%] ">
+      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-opacity duration-3000 sm:w-full  ">
         <img
           src={`./Images/Cover${coverNum}.jpg`}
           className="transition-opacity duration-1000 ease-in-out w-full h-screen sm:h-[70%]"
           alt="Cover"
         />
       </div>
-      <div className="w-full h-screen absolute bg-black/[0.6] z-1 sm:h-[80%] xs:h-[50%] "></div>
+      <div className="w-full h-screen absolute bg-black/[0.6] z-1 "></div>
       {coverNum === 1 ? (
         <div className=" absolute h-screen flex items-center justify-center flex-col transition-opacity">
           <motion.h2 className="font-cursive2 text-7xl text-white sm:text-4xl">
@@ -65,7 +65,7 @@ function Button({ position, children }) {
   return (
     <motion.a
       href="#Menu"
-      className={`${position} bg-white px-10 py-2  text-center bottom-36 text-black rounded-lg hover:bg-transparent hover:text-white border-2 border-white transition-color duration-100 sm:bottom-56 sm:px-3 sm:py-1 xs:bottom-72`}
+      className={`${position} bg-white px-10 py-2  text-center bottom-36 text-black rounded-lg hover:bg-transparent hover:text-white border-2 border-white transition-color duration-100 sm:bottom-8 sm:px-3 sm:py-1 `}
       initial={{ opacity: 0, translateY: 100 }}
       animate={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 2, delay: 1 }}
