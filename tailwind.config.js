@@ -13,7 +13,7 @@ export default {
             },
       colors: {
         "yellow-100": "#ECB159",
-        "creme-100": "#F2EFE5",
+        "creme-100": "#EFEFEF",
         "red-Discover":"#D61C22"
       },
       backgroundImage: {
