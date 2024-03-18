@@ -22,7 +22,6 @@ function App() {
       <SpecialMenu />
       <Menu setMenuCategory={setMenuCategory} menuCategory={menuCategory} />
       <MenuList menuCategory={ menuCategory } />
-      {/* <Customer/> */}
       <AboutUs />
       <Credit/>
     </>
