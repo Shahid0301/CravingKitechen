@@ -21,14 +21,14 @@ function Cover() {
       id="Home"
       className="flex justify-center relative overflow-hidden items-center bg-creme-100 w-full h-screen sm:h-[70%] lg:h-[80%] "
     >
-      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-sm ease-in-out transition-opacity duration-3000 sm:w-full lg:h-[80%] ">
+      <div className="bg-creme-100 relative w-full h-full overflow-hidden z-0 blur-[3px] ease-in-out transition-opacity duration-3000 sm:w-full lg:h-[80%] ">
         <img
           src={`./Images/Cover${coverNum}.jpg`}
           className="transition-opacity duration-1000 ease-in-out w-full h-screen sm:h-[70%] lg:h-[80%] "
           alt="Cover"
         />
       </div>
-      <div className="w-full h-screen absolute bg-black/[0.6] z-1 "></div>
+      <div className="w-full h-screen absolute bg-black/[0.3] z-1 "></div>
       {coverNum === 1 ? (
         <div className=" absolute h-screen w-full flex items-center justify-center flex-col transition-opacity text-center ">
           <motion.h2 className="font-cursive2 text-7xl text-white sm:text-4xl lg:text-5xl">
