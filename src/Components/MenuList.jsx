@@ -22,12 +22,12 @@ function MenuList({ menuCategory }) {
 
   return (
     <div id="menuList "className="flex items-center justify-center h-full flex-col">
-      <div className="flex items-end mr-72 flex-col w-full text-center mb-10 sm:mr-28">
+      <div className="flex items-end mr-72 flex-col w-full text-center mb-10 sm:mr-28 lg:mr-36 lg:">
         { menuCategory && <input
           value={ search }
           type="text"
           placeholder="Search Item..."
-          className="float border-2  w-1/4 right-0 px-10 py-3 rounded-md sm:w-3/4 "
+          className="float border-2  w-1/4 right-0 px-10 py-3 rounded-md sm:w-3/4 lg:w-3/4  "
           onChange={ handleSearch }
           onKeyDown={ handleSearch }
         ></input> }
@@ -47,17 +47,17 @@ function MenuList({ menuCategory }) {
 function MenuItem({ item }) {
   return (
     <li className=" group list-none w-full max-h-40 mb-4 font-oswald px-7  hover:text-yellow-100 transition-colors duration-300 ease capitalize">
-      <div className="flex justify-between text-4xl sm:text-xl ">
-        <span className=" text-wrap">
+      <div className="flex justify-between text-4xl sm:text-lg lg:text-lg">
+        <span className=" text-wrap sm:w-1/3">
           {item.name}
           <br />
           <span className="text-2xl text-zinc-400 capitalize sm:text-sm">
             {item.ingredient}
           </span>
         </span>
-        <span className=" text-zinc-400 sm:text-sm">
-          ------------------
-          <span className="text-black sm:text-sm">&#8377;{item.price}/-</span>
+        <span className=" text-zinc-400 sm:text-xs">
+          ---------------------
+          <span className="text-black sm:text-lg">&#8377;{item.price}/-</span>
         </span>
       </div>
     </li>

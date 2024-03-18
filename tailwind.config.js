@@ -7,18 +7,24 @@ export default {
         cursive: ["Pacifico"],
         cursive2: ["Great Vibes"],
         playfair: [ "Playfair Display" ],
-        oswald:["Oswald"],
-      },
+        oswald: [ "Oswald" ],
+        Courgette: [ "Courgette" ],
+        Poppins:["Poppins"]
+            },
       colors: {
         "yellow-100": "#ECB159",
-        "creme-100": "#F7EEDD",
+        "creme-100": "#F2EFE5",
+        "red-Discover":"#D61C22"
       },
-  
+      backgroundImage: {
+       'Discover':"url('/Images/Discover.jpg')"
+      }
        
     },
     screens: {
       'xs':{'max':'431'},
-      'sm': {'max': '576px'},
+      'sm': { 'max': '576px' },
+      'lg': { 'min':'577px','max': '769px' }
     }
   },
   plugins: [],

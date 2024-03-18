@@ -6,6 +6,9 @@ import { useState } from "react";
 import WelcomeSection from "./Components/WelcomeSection";
 import Navbar from "./Components/Navbar";
 import AboutUs from "./Components/AboutUs";
+import Discover from "./Components/Discover"
+import Credit from "./Components/Credit";
+import Customer from "./Components/Customer";
 
 // import './styles.css';
 function App() {
@@ -15,10 +18,13 @@ function App() {
       <Cover />
       <Navbar />
       <WelcomeSection />
+      <Discover/>
       <SpecialMenu />
       <Menu setMenuCategory={setMenuCategory} menuCategory={menuCategory} />
-      <MenuList menuCategory={menuCategory} />
+      <MenuList menuCategory={ menuCategory } />
+      {/* <Customer/> */}
       <AboutUs />
+      <Credit/>
     </>
   );
 }
